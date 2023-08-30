@@ -1,3 +1,4 @@
+// BACKGROUND IMAGES
 const backgroundImages = document.querySelectorAll('.background-image');
 const changeBackgroundButton = document.getElementById('changeBackgroundButton');
 
@@ -10,3 +11,35 @@ function changeBackground() {
 }
 
 changeBackgroundButton.addEventListener('click', changeBackground);
+
+// AVATAR IMAGES
+const avatarImages = document.querySelectorAll('.avatar-image');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+
+let currentAvatarIndex = 0;
+
+function changeAvatarImage(index) {
+    avatarImages.forEach(image => {
+        image.classList.remove('active');
+    });
+
+    avatarImages[index].classList.add('active');
+}
+
+prevButton.addEventListener('click', () => {
+    currentAvatarIndex = (currentAvatarIndex - 1 + avatarImages.length) % avatarImages.length;
+    changeAvatarImage(currentAvatarIndex);
+});
+
+nextButton.addEventListener('click', () => {
+    currentAvatarIndex = (currentAvatarIndex + 1) % avatarImages.length;
+    changeAvatarImage(currentAvatarIndex);
+});
+
+// Inicializa la primera imagen como activa
+changeAvatarImage(currentAvatarIndex);
+
+
+
+

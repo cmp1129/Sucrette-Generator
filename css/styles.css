@@ -37,3 +37,54 @@ button {
 button:hover {
     background-color: #ff6b81;
 }
+
+
+/* AVATAR */
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+.avatar-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 80vh;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.avatar-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.avatar-image.active {
+    opacity: 1;
+}
+
+.prev-button,
+.next-button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
