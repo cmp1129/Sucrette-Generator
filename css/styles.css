@@ -1,0 +1,39 @@
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+}
+
+.background-container {
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffb6c1; /* Rosa pastel */
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script', cursive; /* Fuente elegante */
+}
+
+.heart {
+    margin-left: 5px;
+    font-size: 18px;
+    color: #ff6b81; /* Otro tono de rosa */
+}
+
+/* Cambia el color del texto del botón cuando se coloca el cursor encima */
+button:hover {
+    background-color: #ff6b81;
+}
