@@ -10,6 +10,7 @@
 
 ## About Sucrette Generator 🤍
 - 💻 Sucrette Avatar Generator from Online Game My Candy Love.
+- https://cristinamateos11.github.io/Sucrette-Generator/
 <br>
 
 ## Support Me 🤍
