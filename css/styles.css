@@ -38,53 +38,60 @@ button:hover {
     background-color: #ff6b81;
 }
 
-
-/* AVATAR */
-.avatar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100vh;
-}
-
-.avatar-images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    max-width: 100%;
-    max-height: 80vh;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.avatar-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 15%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.avatar-image.active {
-    opacity: 1;
-}
-
-.prev-button,
-.next-button {
-    margin: 10px;
-    padding: 5px 10px;
-    background-color: #3498db;
-    color: white;
+/* INFO BUTTON */
+.small-info-button {
+    padding: 3px; /* Adjust the padding to make the button even smaller */
+    background-color: transparent; /* Rosa pastel */
     border: none;
     cursor: pointer;
-    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    width: 40px; /* Set a specific width */
+    height: 40px; /* Set a specific height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.small-info-button img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* container info butoon */
+.info-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffb6c1; /* Rosa pastel */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    text-align: center;
+}
+
+.info-container p {
+    margin: 10px 0;
+}
+
+.info-container button {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  
+  
+  
+  
 
 
