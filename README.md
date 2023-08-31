@@ -13,7 +13,6 @@
 - Change the Background.
 - Make an Avatar.
 - Download the avatar.
-<br>
 
 ## Website 🤍
 - - https://cristinamateos11.github.io/Sucrette-Generator/
