@@ -4,7 +4,7 @@
 <img src="https://res.cloudinary.com/dlddsebry/image/upload/v1693385324/logo_sucrette_generator_al5yxj.png">
 <div align="center">
    <a href="https://github.com/cristinamateos11/Sucrette-Generator">
-      <img src="https://progress-bar.dev/15/" alt="Progress">
+      <img src="https://progress-bar.dev/35/" alt="Progress">
     </a>
 </div>
 
