@@ -97,7 +97,18 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2; /* Asegúrate de que la imagen esté en un z-index superior que el fondo */
+    z-index: 1; /* Asegúrate de que la imagen esté en un z-index superior que el fondo */
+    width: 800px; /* Ancho deseado en píxeles */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+/* IMAGEN ROPA */
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Asegúrate de que la imagen esté en un z-index superior que el AVATAR */
     width: 800px; /* Ancho deseado en píxeles */
     height: auto; /* Esto mantiene la proporción de la imagen */
 }
