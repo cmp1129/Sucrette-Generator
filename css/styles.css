@@ -160,8 +160,55 @@ button:hover {
     justify-content: center;
 }
 
+#castielButton {
+    background-color: #9e0606;
+    color: white;
+}
 
+#castielButton:hover {
+    background-color: #da2020;
+    color: rgb(0, 0, 0);
+}
 
+#nathButton {
+    background-color: #e2d772;
+    color: white;
+}
+
+#nathButton:hover {
+    background-color: #ac9201;
+    color: rgb(0, 0, 0);
+}
+
+#kenButton {
+    background-color: #a2eb8c;
+    color: white;
+}
+
+#kenButton:hover {
+    background-color: #1f550e;
+    color: rgb(0, 0, 0);
+}
+
+#lysButton {
+    background-color: #e79ce7;
+    color: white;
+}
+
+#lysButton:hover {
+    background-color: #8f128f;
+    color: rgb(0, 0, 0);
+}
+
+#arminButton {
+    background-color: #92dbf1;
+    color: white;
+}
+
+#arminButton:hover {
+    background-color: #106f8b;
+    color: rgb(0, 0, 0);
+}
 
   
 /* 
