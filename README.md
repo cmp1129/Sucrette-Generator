@@ -17,6 +17,5 @@
 ## Website 🤍
 - https://cristinamateos11.github.io/Sucrette-Generator/
 
-
 ## Support Me 🤍
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi&logoColor=white&color=ff69b4)](https://ko-fi.com/cristinamateos11)

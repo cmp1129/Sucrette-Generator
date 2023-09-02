@@ -1,3 +1,7 @@
+/* 
+01. BACKGROUND 
+================
+*/
 .background-image {
     position: fixed;
     top: 0;
@@ -17,39 +21,43 @@
 
 button {
     padding: 10px 20px;
-    background-color: #ffb6c1; /* Rosa pastel */
+    background-color: #ffb6c1;
     color: white;
-    border: none;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
-    font-family: 'Dancing Script', cursive; /* Fuente elegante */
+    font-family: 'Dancing Script', cursive; 
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
 }
 
 .heart {
     margin-left: 5px;
-    font-size: 18px;
-    color: #ff6b81; /* Otro tono de rosa */
+    font-size: 15px;
+    color: #ff6b81; 
 }
 
-/* Cambia el color del texto del botón cuando se coloca el cursor encima */
 button:hover {
     background-color: #ff6b81;
 }
 
-/* INFO BUTTON */
+/* 
+02. INFO BUTTON 
+================
+*/
 .small-info-button {
-    padding: 3px; /* Adjust the padding to make the button even smaller */
-    background-color: transparent; /* Rosa pastel */
+    padding: 3px; 
+    background-color: transparent; 
     border: none;
     cursor: pointer;
     position: absolute;
     top: 10px;
     right: 10px;
     z-index: 2;
-    width: 40px; /* Set a specific width */
-    height: 40px; /* Set a specific height */
+    width: 40px; 
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,20 +68,22 @@ button:hover {
     height: auto;
 }
 
-/* container info butoon */
+/* container */
 .info-container {
     display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffb6c1; /* Rosa pastel */
+    background: transparent; 
+    background: linear-gradient(to bottom, #f5cff0, rgba(255, 204, 204, 0));
     color: white;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    z-index: 4;
     text-align: center;
+    font-family: 'Dancing Script', cursive; 
 }
 
 .info-container p {
@@ -89,77 +99,198 @@ button:hover {
     border-radius: 5px;
 }
 
+.info-container button:hover {
+    background: #fdff99; 
+    color: rgb(114, 78, 78);
+}
+
   
-  
-/* IMAGEN AVATAR */
+/* 
+03. AVATAR IMAGE 
+================
+*/
 .centered-image {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Asegúrate de que la imagen esté en un z-index superior que el fondo */
-    width: 800px; /* Ancho deseado en píxeles */
-    height: auto; /* Esto mantiene la proporción de la imagen */
+    z-index: 1; /* nos aseguramos que la imagen esté en un z-index superior que el fondo */
+    width: 800px; 
+    height: auto; /* mantiene la proporción de la imagen */
 }
 
-/* IMAGEN ROPA */
+/* 
+04. AVATAR CLOTHES 
+================
+*/
 .overlay-image {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2; /* Asegúrate de que la imagen esté en un z-index superior que el AVATAR */
-    width: 800px; /* Ancho deseado en píxeles */
-    height: auto; /* Esto mantiene la proporción de la imagen */
+    z-index: 2; /* nos aseguramos que la imagen esté en un z-index superior que el AVATAR */
+    width: 800px; 
+    height: auto; 
 }
 
+/* 
+05. AVATAR HAIR 
+================
+*/
+.ontop-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* nos aseguramos que la imagen esté en un z-index superior que la ROPA */
+    width: 800px; 
+    height: auto; 
+}
 
-/* BUTTON BACK I NEXT */
+/* 
+06. BUTTONS BACK AND NEXT
+================
+*/
 .button-container {
     display: flex;
-    flex-direction: column; /* Cambia la dirección del contenedor a vertical */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-    background: linear-gradient(45deg, #ffffcc, #ffcc99); /* Fondo degradado amarillo pastel */
+    flex-direction: column; 
+    align-items: flex-start; 
+    background: linear-gradient(to bottom, #f5cff0, rgba(255, 204, 204, 0));
     padding: 10px;
     border-radius: 10px;
     margin: 20px;
-    width: 150px; /* Ancho deseado para el contenedor */
+    width: 180px; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-family: 'Dancing Script', cursive; 
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
 }
 
 .button-title {
     margin: 0;
     font-size: 18px;
-    color: #ff6b81; /* Color de título personalizado */
+    color: #ff6b81; 
+    align-self: center;
 }
 
 .avatar-button {
     background: transparent;
     border: none;
     cursor: pointer;
-    color: #ff6b81; /* Color de botón personalizado */
+    color: #ff6b81; 
     font-size: 16px;
     margin-top: 5px; /* Espacio entre los botones */
 }
 
+#backButton {
+    background: #ff9999; 
+    color: white;
+}
 
-/* BUTTON DOWNLOAD */
+#backButton:hover {
+    background: #ff5858; 
+}
+
+#nextButton {
+    background: #99ff99; 
+    color: white;
+}
+
+#nextButton:hover {
+    background: #389238; 
+}
+
+#backButtonHair {
+    background: #ff9999; 
+    color: white;
+}
+
+#backButtonHair:hover {
+    background: #ff5858; 
+}
+
+#nextButtonHair {
+    background: #99ff99; 
+    color: white;
+}
+
+#nextButtonHair:hover {
+    background: #389238; 
+}
+
+#clothesButtonBack {
+    background: #ff9999; 
+    color: white;
+}
+
+#clothesButtonBack:hover {
+    background: #ff5858; 
+}
+
+#clothesButtonNext {
+    background: #99ff99; 
+    color: white;
+}
+
+#clothesButtonNext:hover {
+    background: #389238; 
+}
+
+
+#randomize {
+    background: #fdff99; 
+    color: rgb(114, 78, 78);
+}
+
+#randomize:hover {
+    animation: colorChange 2s infinite alternate; 
+}
+
+@keyframes colorChange {
+    0% {
+        background: #fdff99;
+        color: rgb(114, 78, 78);
+    }
+    25% {
+        background: #ff6b81;
+        color: #fff;
+    }
+    50% {
+        background: #6b81ff;
+        color: #fff;
+    }
+    75% {
+        background: #81ff6b;
+        color: #fff;
+    }
+    100% {
+        background: #fdff99;
+        color: rgb(114, 78, 78);
+    }
+}
+
+/* 
+06. BUTTON DOWNLOAD
+================
+*/
 .boton-descarga {
-    background-color: pink; /* Color de fondo rosa pastel */
-    border: 2px solid pink; /* Borde redondeado */
-    border-radius: 10px; /* Radio de borde redondeado */
-    padding: 10px 20px; /* Espaciado interior del botón */
-    color: white; /* Color de texto blanco */
-    text-align: center; /* Centrar el texto horizontalmente */
-    text-decoration: none; /* Eliminar el subrayado del enlace */
-    position: fixed; /* Posición fija */
-    bottom: 10px; /* Alineación en la parte inferior */
-    right: 10px; /* Alineación a la derecha */
-    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    background-color: pink; 
+    border: 2px solid pink; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    cursor: pointer; 
+    font-family: 'Dancing Script', cursive; 
 }
 
 .boton-descarga:hover {
-    background-color: #ff6b81; /* Color de fondo amarillo pastel al pasar el ratón */
-    border: 2px solid #ff6b81; /* Borde amarillo pastel al pasar el ratón */
+    background-color: #ff6b81; 
+    border: 2px solid #ff6b81; 
 }
 
 
