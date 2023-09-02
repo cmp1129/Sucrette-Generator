@@ -140,6 +140,19 @@ button:hover {
     color: rgb(114, 78, 78);
 }
 
+/* 
+02.2. CRUSHES BUTTONS
+================
+*/
+#crushesButtons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+
+
   
 /* 
 03. AVATAR IMAGE 
