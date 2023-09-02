@@ -127,9 +127,22 @@ button:hover {
     height: auto; 
 }
 
+/* 
+05. AVATAR HAIR 
+================
+*/
+.ontop-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* nos aseguramos que la imagen esté en un z-index superior que la ROPA */
+    width: 800px; 
+    height: auto; 
+}
 
 /* 
-05. BUTTONS BACK AND NEXT
+06. BUTTONS BACK AND NEXT
 ================
 */
 .button-container {
