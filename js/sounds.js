@@ -18,11 +18,16 @@ randomizeSound.addEventListener('mouseenter', () => {
 const popupSound = document.getElementById('popupSound');
 const infoButtonSound = document.getElementById('info-button');
 const closeButtonSound = document.getElementById('close-button');
+const closeButtonCrush = document.getElementById('close-button-crush');
 
 infoButtonSound.addEventListener('mouseenter', () => {
     popupSound.play();
 });
 
 closeButtonSound.addEventListener('mouseenter', () => {
+    popupSound.play();
+});
+
+closeButtonCrush.addEventListener('mouseenter', () => {
     popupSound.play();
 });
