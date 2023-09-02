@@ -91,7 +91,77 @@ button:hover {
 
   
   
-  
-  
+/* IMAGEN AVATAR */
+.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegúrate de que la imagen esté en un z-index superior que el fondo */
+    width: 800px; /* Ancho deseado en píxeles */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+/* IMAGEN ROPA */
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Asegúrate de que la imagen esté en un z-index superior que el AVATAR */
+    width: 800px; /* Ancho deseado en píxeles */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+
+/* BUTTON BACK I NEXT */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del contenedor a vertical */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    background: linear-gradient(45deg, #ffffcc, #ffcc99); /* Fondo degradado amarillo pastel */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 150px; /* Ancho deseado para el contenedor */
+}
+
+.button-title {
+    margin: 0;
+    font-size: 18px;
+    color: #ff6b81; /* Color de título personalizado */
+}
+
+.avatar-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ff6b81; /* Color de botón personalizado */
+    font-size: 16px;
+    margin-top: 5px; /* Espacio entre los botones */
+}
+
+
+/* BUTTON DOWNLOAD */
+.boton-descarga {
+    background-color: pink; /* Color de fondo rosa pastel */
+    border: 2px solid pink; /* Borde redondeado */
+    border-radius: 10px; /* Radio de borde redondeado */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    color: white; /* Color de texto blanco */
+    text-align: center; /* Centrar el texto horizontalmente */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    position: fixed; /* Posición fija */
+    bottom: 10px; /* Alineación en la parte inferior */
+    right: 10px; /* Alineación a la derecha */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+}
+
+.boton-descarga:hover {
+    background-color: #ff6b81; /* Color de fondo amarillo pastel al pasar el ratón */
+    border: 2px solid #ff6b81; /* Borde amarillo pastel al pasar el ratón */
+}
+
+
 
 
