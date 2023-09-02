@@ -105,6 +105,18 @@ button:hover {
     color: rgb(114, 78, 78);
 }
 
+.info-container a {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold;
+}
+
+.info-container a:hover {
+    text-decoration: underline; 
+    color: #5e1a3c; 
+    font-weight: bold;
+}
+
 /* 
 02.1. MESSAGE BUTTON CRUSH 
 ================
