@@ -237,7 +237,6 @@ button:hover {
     background: #389238; 
 }
 
-
 #randomize {
     background: #fdff99; 
     color: rgb(114, 78, 78);
@@ -269,6 +268,17 @@ button:hover {
         color: rgb(114, 78, 78);
     }
 }
+
+#message-crush {
+    background: #770202; 
+    color: white;
+}
+
+#message-crush:hover {
+    background: white; 
+    color: #770202;
+}
+
 
 /* 
 06. BUTTON DOWNLOAD
