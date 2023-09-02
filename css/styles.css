@@ -51,7 +51,7 @@ button:hover {
     padding: 3px; 
     background-color: transparent; 
     border: none;
-    cursor: pointer;
+    cursor: help;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -67,6 +67,7 @@ button:hover {
     max-width: 100%;
     height: auto;
 }
+
 
 /* container */
 .info-container {
@@ -284,7 +285,7 @@ button:hover {
     position: fixed; 
     bottom: 10px; 
     right: 10px; 
-    cursor: pointer; 
+    cursor: progress; 
     font-family: 'Dancing Script', cursive; 
 }
 
