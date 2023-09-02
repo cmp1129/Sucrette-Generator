@@ -167,9 +167,17 @@ button:hover {
     color: white;
 }
 
+#backButton:hover {
+    background: #ff5858; 
+}
+
 #nextButton {
     background: #99ff99; 
     color: white;
+}
+
+#nextButton:hover {
+    background: #389238; 
 }
 
 #backButtonHair {
@@ -177,9 +185,17 @@ button:hover {
     color: white;
 }
 
+#backButtonHair:hover {
+    background: #ff5858; 
+}
+
 #nextButtonHair {
     background: #99ff99; 
     color: white;
+}
+
+#nextButtonHair:hover {
+    background: #389238; 
 }
 
 #clothesButtonBack {
@@ -187,14 +203,50 @@ button:hover {
     color: white;
 }
 
+#clothesButtonBack:hover {
+    background: #ff5858; 
+}
+
 #clothesButtonNext {
     background: #99ff99; 
     color: white;
 }
 
+#clothesButtonNext:hover {
+    background: #389238; 
+}
+
+
 #randomize {
     background: #fdff99; 
     color: rgb(114, 78, 78);
+}
+
+#randomize:hover {
+    animation: colorChange 2s infinite alternate; 
+}
+
+@keyframes colorChange {
+    0% {
+        background: #fdff99;
+        color: rgb(114, 78, 78);
+    }
+    25% {
+        background: #ff6b81;
+        color: #fff;
+    }
+    50% {
+        background: #6b81ff;
+        color: #fff;
+    }
+    75% {
+        background: #81ff6b;
+        color: #fff;
+    }
+    100% {
+        background: #fdff99;
+        color: rgb(114, 78, 78);
+    }
 }
 
 /* 
