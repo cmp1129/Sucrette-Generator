@@ -152,9 +152,9 @@ button:hover {
 }
 
 #crushesButtons button {
-    width: 150px; /* Establece el ancho deseado para los botones */
-    height: 40px; /* Establece la altura deseada para los botones */
-    overflow: hidden; /* Evita que el texto desborde el botón */
+    width: 150px; 
+    height: 40px; 
+    overflow: hidden; /* Evitamos que el texto desborde el boton */
     display: flex;
     align-items: center;
     justify-content: center;
