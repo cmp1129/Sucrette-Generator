@@ -1,3 +1,7 @@
+/* 
+01. BACKGROUND 
+================
+*/
 .background-image {
     position: fixed;
     top: 0;
@@ -17,39 +21,41 @@
 
 button {
     padding: 10px 20px;
-    background-color: #ffb6c1; /* Rosa pastel */
+    background-color: #ffb6c1;
     color: white;
     border: none;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
-    font-family: 'Dancing Script', cursive; /* Fuente elegante */
+    font-family: 'Dancing Script', cursive; 
 }
 
 .heart {
     margin-left: 5px;
     font-size: 18px;
-    color: #ff6b81; /* Otro tono de rosa */
+    color: #ff6b81; 
 }
 
-/* Cambia el color del texto del botón cuando se coloca el cursor encima */
 button:hover {
     background-color: #ff6b81;
 }
 
-/* INFO BUTTON */
+/* 
+02. INFO BUTTON 
+================
+*/
 .small-info-button {
-    padding: 3px; /* Adjust the padding to make the button even smaller */
-    background-color: transparent; /* Rosa pastel */
+    padding: 3px; 
+    background-color: transparent; 
     border: none;
     cursor: pointer;
     position: absolute;
     top: 10px;
     right: 10px;
     z-index: 2;
-    width: 40px; /* Set a specific width */
-    height: 40px; /* Set a specific height */
+    width: 40px; 
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +73,7 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffb6c1; /* Rosa pastel */
+    background-color: #ffb6c1; 
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -90,76 +96,87 @@ button:hover {
 }
 
   
-  
-/* IMAGEN AVATAR */
+/* 
+03. AVATAR IMAGE 
+================
+*/
 .centered-image {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Asegúrate de que la imagen esté en un z-index superior que el fondo */
-    width: 800px; /* Ancho deseado en píxeles */
-    height: auto; /* Esto mantiene la proporción de la imagen */
+    z-index: 1; /* nos aseguramos que la imagen esté en un z-index superior que el fondo */
+    width: 800px; 
+    height: auto; /* mantiene la proporción de la imagen */
 }
 
-/* IMAGEN ROPA */
+/* 
+04. AVATAR CLOTHES 
+================
+*/
 .overlay-image {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2; /* Asegúrate de que la imagen esté en un z-index superior que el AVATAR */
-    width: 800px; /* Ancho deseado en píxeles */
-    height: auto; /* Esto mantiene la proporción de la imagen */
+    z-index: 2; /* nos aseguramos que la imagen esté en un z-index superior que el AVATAR */
+    width: 800px; 
+    height: auto; 
 }
 
 
-/* BUTTON BACK I NEXT */
+/* 
+05. BUTTONS BACK AND NEXT
+================
+*/
 .button-container {
     display: flex;
-    flex-direction: column; /* Cambia la dirección del contenedor a vertical */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-    background: linear-gradient(45deg, #ffffcc, #ffcc99); /* Fondo degradado amarillo pastel */
+    flex-direction: column; 
+    align-items: flex-start; 
+    background: linear-gradient(45deg, #ffffcc, #ffcc99); 
     padding: 10px;
     border-radius: 10px;
     margin: 20px;
-    width: 150px; /* Ancho deseado para el contenedor */
+    width: 150px; 
 }
 
 .button-title {
     margin: 0;
     font-size: 18px;
-    color: #ff6b81; /* Color de título personalizado */
+    color: #ff6b81; 
 }
 
 .avatar-button {
     background: transparent;
     border: none;
     cursor: pointer;
-    color: #ff6b81; /* Color de botón personalizado */
+    color: #ff6b81; 
     font-size: 16px;
     margin-top: 5px; /* Espacio entre los botones */
 }
 
 
-/* BUTTON DOWNLOAD */
+/* 
+06. BUTTON DOWNLOAD
+================
+*/
 .boton-descarga {
-    background-color: pink; /* Color de fondo rosa pastel */
-    border: 2px solid pink; /* Borde redondeado */
-    border-radius: 10px; /* Radio de borde redondeado */
-    padding: 10px 20px; /* Espaciado interior del botón */
-    color: white; /* Color de texto blanco */
-    text-align: center; /* Centrar el texto horizontalmente */
-    text-decoration: none; /* Eliminar el subrayado del enlace */
-    position: fixed; /* Posición fija */
-    bottom: 10px; /* Alineación en la parte inferior */
-    right: 10px; /* Alineación a la derecha */
-    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    background-color: pink; 
+    border: 2px solid pink; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    cursor: pointer; 
 }
 
 .boton-descarga:hover {
-    background-color: #ff6b81; /* Color de fondo amarillo pastel al pasar el ratón */
-    border: 2px solid #ff6b81; /* Borde amarillo pastel al pasar el ratón */
+    background-color: #ff6b81; 
+    border: 2px solid #ff6b81; 
 }
 
 
