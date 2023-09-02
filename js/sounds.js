@@ -14,6 +14,7 @@ randomizeSound.addEventListener('mouseenter', () => {
     rouletteSound.play();
 });
 
+// 03. Info Sound
 const popupSound = document.getElementById('popupSound');
 const infoButtonSound = document.getElementById('info-button');
 const closeButtonSound = document.getElementById('close-button');
