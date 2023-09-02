@@ -13,3 +13,15 @@ const randomizeSound = document.getElementById('randomize');
 randomizeSound.addEventListener('mouseenter', () => {
     rouletteSound.play();
 });
+
+const popupSound = document.getElementById('popupSound');
+const infoButtonSound = document.getElementById('info-button');
+const closeButtonSound = document.getElementById('close-button');
+
+infoButtonSound.addEventListener('mouseenter', () => {
+    popupSound.play();
+});
+
+closeButtonSound.addEventListener('mouseenter', () => {
+    popupSound.play();
+});
