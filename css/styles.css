@@ -137,13 +137,16 @@ button:hover {
     padding: 10px;
     border-radius: 10px;
     margin: 20px;
-    width: 150px; 
+    width: 180px; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .button-title {
     margin: 0;
     font-size: 18px;
     color: #ff6b81; 
+    align-self: center;
 }
 
 .avatar-button {
@@ -155,6 +158,35 @@ button:hover {
     margin-top: 5px; /* Espacio entre los botones */
 }
 
+#backButton {
+    background: #ff9999; 
+    color: white;
+}
+
+#nextButton {
+    background: #99ff99; 
+    color: white;
+}
+
+#backButtonHair {
+    background: #ff9999; 
+    color: white;
+}
+
+#nextButtonHair {
+    background: #99ff99; 
+    color: white;
+}
+
+#clothesButtonBack {
+    background: #ff9999; 
+    color: white;
+}
+
+#clothesButtonNext {
+    background: #99ff99; 
+    color: white;
+}
 
 /* 
 06. BUTTON DOWNLOAD
