@@ -75,7 +75,8 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffb6c1; 
+    background: transparent; 
+    background: linear-gradient(to bottom, #f5cff0, rgba(255, 204, 204, 0));
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -96,6 +97,11 @@ button:hover {
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.info-container button:hover {
+    background: #fdff99; 
+    color: rgb(114, 78, 78);
 }
 
   
