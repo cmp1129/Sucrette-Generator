@@ -24,13 +24,17 @@
 
     <div id="info-container" class="info-container">
         <button id="close-button">Close ❤️</button>
-        <h2>How does it work?</h2>
+        <hr><h2>How does it work?</h2><hr>
         <p>
             1. Change the background!<br>
             2. Create your avatar!<br>
-            3. Download!</p><br>
+            3. Choose you Crush!<br>
+            4. Download! *Doesn't work well yet*</p><br>
 
-        <em>© All rights to Corazón de Melón</em>
+        <em>© All rights to <a href="https://www.corazondemelon.es">Corazón de Melón</a></em><br>
+        <em>Made by: <a href="https://github.com/cristinamateos11">cristinamateos11</a></em><br>
+        <em>TikTok: <a href="https://www.tiktok.com/@wingedheartx">wingedheartx</a></em><br>
+        <em><b>Follow me for more!!</b></em>
     </div>
 
     <!-- Superposición de los peinados de Sucrette -->
@@ -112,6 +116,11 @@
         <button id="randomize" class="avatar-button">Random</button>
     </div>
 
+    <!-- Contenedor para Message -->
+    <div class="button-container">
+        <h2 class="button-title">Secret Message!</h2>
+        <button id="message-crush" class="avatar-button">Crush</button>
+    </div>
 
     <!-- Contenedor para las imágenes del fondo -->
     <div class="background-image" style="background-image: url('images/background/background-01.jpg');"></div>
@@ -133,9 +142,38 @@
     <div class="background-image" style="background-image: url('images/background/background-19.jpg');"></div>
     <div class="background-image" style="background-image: url('images/background/background-20.jpg');"></div>
 
+
+    <!-- Contenedor para el mensaje -->
+    <div id="message-container-crush" class="message-container-crush">
+        <button id="close-button-crush">Close ❤️</button>
+        <hr><h2>Who is your Crush?</h2><hr>
+        <div id="crushesButtons">
+            <button id="castielButton" class="castielButton" data-image-src="images/minis/mini-castiel.png">Castiel</button>
+            <button id="nathButton" class="nathButton" data-image-src="images/minis/mini-nath.jpg">Nathaniel</button>
+            <button id="kenButton" class="kenButton" data-image-src="images/minis/mini-kentin.jpg">Kentin</button>
+            <button id="lysButton" class="lysButton" data-image-src="images/minis/mini-lys.png">Lysandro</button>
+            <button id="arminButton" class="arminButton" data-image-src="images/minis/mini-armin.jpg">Armin</button>
+        </div>
+    </div> 
+
     <!-- Botón de Descarga -->
     <a class="boton-descarga" href="#" onclick="downloadAvatar()">Download</a>
+    
+    <!-- Sonidos -->
+    <audio id="hoverSound">
+        <source src="audio/kiss-sound.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
 
+    <audio id="rouletteSound">
+        <source src="audio/roulette-sound.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <audio id="popupSound">
+        <source src="audio/popup.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
 
 </body>
 <script src="js/background.js"></script>
@@ -145,4 +183,6 @@
 <script src="js/clothes-back-next.js"></script>
 <script src="js/random.js"></script>
 <script src="js/hair-back-next.js"></script>
+<script src="js/sounds.js"></script>
+<script src="js/message-button-crush.js"></script>
 </html>

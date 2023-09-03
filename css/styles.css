@@ -51,7 +51,7 @@ button:hover {
     padding: 3px; 
     background-color: transparent; 
     border: none;
-    cursor: pointer;
+    cursor: help;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -67,6 +67,7 @@ button:hover {
     max-width: 100%;
     height: auto;
 }
+
 
 /* container */
 .info-container {
@@ -102,6 +103,123 @@ button:hover {
 .info-container button:hover {
     background: #fdff99; 
     color: rgb(114, 78, 78);
+}
+
+.info-container a {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold;
+}
+
+.info-container a:hover {
+    text-decoration: underline; 
+    color: #5e1a3c; 
+    font-weight: bold;
+}
+
+/* 
+02.1. MESSAGE BUTTON CRUSH 
+================
+*/
+.message-container-crush {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent; 
+    background: linear-gradient(to bottom, #f5cff0, rgba(255, 204, 204, 0));
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    z-index: 4;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+}
+
+.message-container-crush button {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message-container-crush button:hover {
+    background: #fdff99; 
+    color: rgb(114, 78, 78);
+}
+
+/* 
+02.2. CRUSHES BUTTONS
+================
+*/
+#crushesButtons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+#crushesButtons button {
+    width: 150px; 
+    height: 40px; 
+    overflow: hidden; /* Evitamos que el texto desborde el boton */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#castielButton {
+    background-color: #9e0606;
+    color: white;
+}
+
+#castielButton:hover {
+    background-color: #da2020;
+    color: rgb(0, 0, 0);
+}
+
+#nathButton {
+    background-color: #e2d772;
+    color: white;
+}
+
+#nathButton:hover {
+    background-color: #ac9201;
+    color: rgb(0, 0, 0);
+}
+
+#kenButton {
+    background-color: #a2eb8c;
+    color: white;
+}
+
+#kenButton:hover {
+    background-color: #1f550e;
+    color: rgb(0, 0, 0);
+}
+
+#lysButton {
+    background-color: #e79ce7;
+    color: white;
+}
+
+#lysButton:hover {
+    background-color: #8f128f;
+    color: rgb(0, 0, 0);
+}
+
+#arminButton {
+    background-color: #92dbf1;
+    color: white;
+}
+
+#arminButton:hover {
+    background-color: #106f8b;
+    color: rgb(0, 0, 0);
 }
 
   
@@ -236,7 +354,6 @@ button:hover {
     background: #389238; 
 }
 
-
 #randomize {
     background: #fdff99; 
     color: rgb(114, 78, 78);
@@ -269,6 +386,17 @@ button:hover {
     }
 }
 
+#message-crush {
+    background: #770202; 
+    color: white;
+}
+
+#message-crush:hover {
+    background: white; 
+    color: #770202;
+}
+
+
 /* 
 06. BUTTON DOWNLOAD
 ================
@@ -284,7 +412,7 @@ button:hover {
     position: fixed; 
     bottom: 10px; 
     right: 10px; 
-    cursor: pointer; 
+    cursor: progress; 
     font-family: 'Dancing Script', cursive; 
 }
 
