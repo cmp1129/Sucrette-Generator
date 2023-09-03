@@ -87,6 +87,11 @@ button:hover {
     font-family: 'Dancing Script', cursive; 
 }
 
+#info-container {
+    position: absolute;
+    cursor: grab;
+}
+
 .info-container p {
     margin: 10px 0;
 }
