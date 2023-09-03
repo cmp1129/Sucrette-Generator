@@ -9,10 +9,12 @@
 </div>
 
 ## About Sucrette Generator 🤍
-- 💻 Sucrette Avatar Generator from Online Game My Candy Love.
-- Change the Background.
-- Make an Avatar.
-- Download the avatar (Working on it).
+- 🧁 Sucrette Avatar Generator from Online Game My Candy Love.
+- 💻 Change the Background.
+- 👾 Make an Avatar.
+- 💝 Choose your Crush.
+- 📥 Download the Avatar *(Working on it)*.
+- © All rights to My Candy Love - Beemov
 
 ## Website 🤍
 - https://cristinamateos11.github.io/Sucrette-Generator/
