@@ -122,6 +122,9 @@
         <button id="message-crush" class="avatar-button">Crush</button>
     </div>
 
+     <!-- Botón de pausa/reproducción -->
+     <button id="toggle-music-button">🔇</button>
+
     <!-- Contenedor para las imágenes del fondo -->
     <div class="background-image" style="background-image: url('images/background/background-01.jpg');"></div>
     <div class="background-image" style="background-image: url('images/background/background-02.jpg');"></div>
@@ -173,6 +176,12 @@
     <audio id="popupSound">
         <source src="audio/popup.mp3" type="audio/mpeg">
         Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Música de Background -->
+    <audio id="background-music" autoplay loop>
+        <source src="audio/song4.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de música.
     </audio>
 
 </body>

@@ -87,6 +87,11 @@ button:hover {
     font-family: 'Dancing Script', cursive; 
 }
 
+#info-container {
+    position: absolute;
+    cursor: grab;
+}
+
 .info-container p {
     margin: 10px 0;
 }
@@ -421,6 +426,18 @@ button:hover {
     border: 2px solid #ff6b81; 
 }
 
-
+/* 
+07. BOTÓN REPRODUCCIÓN DE AUDIO
+================
+*/
+#toggle-music-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 24px; /* Ajustar el tamaño del icono */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
 

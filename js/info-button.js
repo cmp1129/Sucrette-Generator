@@ -14,3 +14,28 @@ document.addEventListener("DOMContentLoaded", function () {
         infoContainer.style.display = "none";
     });
 });
+
+// 00. Mover contenedor por la pantalla
+const infoContainer = document.getElementById('info-container');
+        let isDragging = false;
+        let offsetX, offsetY;
+
+        infoContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            offsetX = e.clientX - infoContainer.getBoundingClientRect().left;
+            offsetY = e.clientY - infoContainer.getBoundingClientRect().top;
+            infoContainer.style.cursor = 'grabbing';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            const x = e.clientX - offsetX;
+            const y = e.clientY - offsetY;
+            infoContainer.style.left = x + 'px';
+            infoContainer.style.top = y + 'px';
+        });
+
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+            infoContainer.style.cursor = 'grab';
+});
