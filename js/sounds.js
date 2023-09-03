@@ -31,3 +31,21 @@ closeButtonSound.addEventListener('mouseenter', () => {
 closeButtonCrush.addEventListener('mouseenter', () => {
     popupSound.play();
 });
+
+// BACKGROUND MUSIC
+const audio = document.getElementById('background-music');
+const toggleMusicButton = document.getElementById('toggle-music-button');
+
+// Función para pausar o reproducir la música
+function toggleMusic() {
+    if (audio.paused) {
+        audio.play();
+        toggleMusicButton.textContent = '🔊';
+        
+    } else {
+        audio.pause();
+        toggleMusicButton.textContent = '🔇';
+    }
+}
+
+toggleMusicButton.addEventListener('click', toggleMusic);
