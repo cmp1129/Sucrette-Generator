@@ -17,7 +17,5 @@
 - © All rights to My Candy Love - Beemov
 
 ## Website 🤍
-- https://cristinamateos11.github.io/Sucrette-Generator/
+- unavailable right now
 
-## Support Me 🤍
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi&logoColor=white&color=ff69b4)](https://ko-fi.com/cristinamateos11)
